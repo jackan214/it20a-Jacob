@@ -1,0 +1,2 @@
+import datetime
+print("Dagens datum: {}:{}:{} \n Klockan är: {}:{}:{}".format(datetime.date.year(),datetime.date.month(),datetime.date.day,datetime.time.hour,datetime.time.minute,datetime.time.second))
